@@ -1,0 +1,709 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.heading{
+    height:45px;
+    width:100%;
+    background-color:rgba(247, 243, 243, 0.999);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+a{
+    padding:10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color:rgb(109, 108, 108);
+    font-size:12px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.logo{
+    padding-right:30px;
+    color:black;
+    font-size: 18px;
+    padding-right:30px;
+}
+.app1{
+    padding-left:30px;
+    color:rgb(109, 108, 108);
+    font-size: 15px;
+   
+}
+.get{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:50px;
+    
+}
+h4{
+    text-align: center;
+    width:100%;
+   
+    color:gray;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+span{
+    color:rgb(33, 128, 187);
+}
+a:hover{
+    
+    background-color:aquamarine;
+}
+.sideheading{
+    display: flex;
+    transition: all 0.5s;  
+}
+.maindiv{
+    height:700px;
+    width:100%;
+    background-color:rgba(247, 243, 243, 0.999);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+  
+}
+
+.maindiv h1{
+    position: absolute;
+  text-align: center;
+   padding-top:50px;
+   font-size: 50px;
+   top:0px;
+   width:35%;
+   text-align: center;
+   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+h6{
+    top:170px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    position: absolute;
+    width:100%;
+  text-align: center;
+  
+}
+.maindiv h4{
+ 
+    font-size: 22px;
+    position: absolute;
+    top:210px;
+    color:rgb(33, 128, 187);
+    width:100%;
+    text-align: center;
+
+  }
+  .maindiv h4:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  video{
+   
+    width:100%;
+    height:700px;
+    object-fit:contain;
+    position: absolute;  
+}
+sup{
+    font-size: 10px;
+}
+.box2{
+    height:700px;
+    width:100%;
+    background-color:rgb(17, 150, 150);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    
+}
+.box2 h1{
+    position: absolute;
+    text-align: center;
+   padding-top:50px;
+   font-size: 50px;
+   width:500px;
+   top:20px;
+
+
+}
+.box2 h2{
+    top:115px;
+    font-size:35px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    position: absolute;
+    width:100%;
+    text-align: center;
+    
+    
+}
+.box2 span{
+    
+    width:100%;
+  text-align: center;
+  font-size: 22px;
+    position: absolute; 
+    top:170px; 
+}
+
+.img2{
+    height:600px;
+    width:100%;
+    height:700px;
+   
+    position: absolute;
+    object-fit:cover;
+}
+
+.img3{
+    display:none;
+ 
+}
+
+.box3 h1{
+  position: absolute;
+  text-align: center;
+   padding-top:50px;
+   font-size: 50px;
+   width:100%;
+   text-align: center;
+   margin:auto;
+   top:0px;
+   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.box3{
+    height:700px;
+    width:100%;
+    background-color:aqua;
+    display: flex;
+    align-items:center;
+    position:relative;
+    text-align: center;
+   
+}
+.box3 h2{
+   top:100px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.box3 span{
+
+  font-size: 22px;
+  position: absolute; 
+  top:160px; 
+  width:100%;
+  text-align: center;
+}
+.img4{
+    height:700px;
+    width:100%;
+    
+    position: absolute;
+    object-fit:cover;
+    
+}
+.nav{
+    display: none;
+}
+input{
+    display: none;
+}
+
+
+.box4{
+    min-height:100vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+
+    grid-row:6;
+}
+.mg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mg h1{
+    position: absolute;
+    color:white;
+    top:400px;
+
+   text-align: center;
+}
+.mg h2{
+    position: absolute;
+    top:450px;
+    color:white;
+
+   text-align: center;
+}
+.mg1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mg1 h1{
+position: absolute;
+color:white;
+top:50px;
+
+font-size: 45px;
+}
+.mg1 h2{
+    position: absolute;
+    color:white;
+    top:110px;
+ 
+    text-align: center;
+}
+.mg1 span{
+    position: absolute;
+    top:150px;
+ 
+   text-align: center;
+}
+.mg2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mg2 h1{
+    position: absolute;
+    top:10%;
+    color:white;
+    font-size:45px;
+
+    
+}
+.mg2 h2{
+    position: absolute;
+    top:20%;
+    color:white;
+  
+  
+}
+.mg2 span{
+    position: absolute;
+    top:27%;
+  
+}
+.mg3{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.mg3 h1{
+    position: absolute;
+    top:10%;
+    font-size: 40px;
+    color:white;
+
+}
+.mg3 h5{
+    position: absolute;
+    top:20%;
+    color:red;
+ 
+}
+.mg3 h2{
+    position: absolute;
+    top:25%;
+
+    color:white;
+}
+.mg3 span{
+    position: absolute;
+    top:33%;
+
+}
+.mg4{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mg4 h1{
+    position: absolute;
+    top:10%;
+    color:black;
+
+}
+.mg4 h2{
+    position: absolute;
+    top:18%;
+    color:black;
+
+}
+.mg4 span{
+    position: absolute;
+    top:24%;
+
+}
+.mg5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mg5 h1{
+    position: absolute;
+    top:10%;
+    color:white;
+
+}
+.mg5 h2{
+position: absolute;
+top:18%;
+
+color:white;
+}
+.mg5 span{
+   position: absolute;
+   top:24%;
+
+}
+.g{
+ 
+  width:100%;
+/* gap:10px 10px; */
+padding:5px 5px;
+
+}
+.animation{
+position: relative;
+
+
+}
+.slidshow{
+    width:90%;
+    position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,50%);
+border:10px solid white;
+overflow: hidden;
+
+
+}
+.imgslid{
+   width: 100%;
+   display: flex;
+animation-name: slidshow;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+.image{
+    width:100%;
+    animation-delay:10s ;
+   
+}
+@keyframes slidshow{
+    0%{
+        transform: translateX(-0%);
+    }
+    10%{
+        transform: translateX(-100%);
+    }
+    15%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-200%);
+    }
+    25%{
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-300%);
+    }
+    35%{
+        transform: translateX(-300%);
+    }
+    40%{
+        transform: translateX(-400%);
+    }
+    45%{
+        transform: translateX(-400%);
+    }
+    50%{
+        transform: translateX(-500%);
+    }
+    55%{
+        transform: translateX(-500%);
+    }
+    60%{
+        transform: translateX(-600%);
+    }
+    65%{
+        transform: translateX(-600%);
+    }
+    70%{
+        transform: translateX(-700%);
+    }
+    75%{
+        transform: translateX(-700%);
+    }
+    80%{
+        transform: translateX(-800%);
+    }
+    85%{
+        transform: translateX(-800%);
+    }
+    90%{
+        transform: translateX(-900%);
+    }
+    95%{
+        transform: translateX(-900%);
+    }
+    100%{
+        transform: translateX(-1000%);
+    }
+    105%{
+        transform: translateX(-1000%);
+    }
+}
+.heading{
+    position: fixed;
+    z-index: 999;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .sideheading{
+        position: fixed;
+        flex-direction: column;
+        background-color:rgba(247, 243, 243, 0.999);
+        top:45px;
+        width:100%;
+        min-height:94vh;
+        left:0px;
+        justify-content:start;
+        padding-top:40px;
+        padding-left:10px;
+        left:-100%;  
+        /* z-index:2;  */
+    }
+    .heading{
+        position: fixed;
+        z-index: 999;
+    }
+    .logo{
+        padding-right:130px;
+    }
+    .app1{
+        padding-left:30px;
+    }
+    .nav{
+        padding-left:20px;
+    }
+    a{
+        font-size: 23px;
+        font-weight: bold;
+        color:black;
+    }
+    h4{
+        font-size:13px;
+        line-height:20px;
+        text-align: center;
+      
+      
+       
+    }
+    video{
+        width:100%;
+        height:600px;
+        object-fit:contain;
+        position: absolute;
+    }
+    .nav{
+      display:flex;
+      
+    }
+    input:checked~.sideheading{
+        left:0;
+        background-color:rgba(247, 243, 243, 0.999);
+     
+        
+    }
+    input{
+        display: none;
+    }
+    .maindiv{
+        width:100%;
+       display:flex;
+       justify-content: center;
+   
+    }
+    .maindiv h1{
+        font-size: 28px;
+        text-align: center;
+        width:90%;
+      
+    }
+    .maindiv h6{
+      text-align: center;
+      width:80%;
+        font-size: 18px;
+        top:120px;
+    }
+    .three2{
+        display: block;
+        text-align: center;
+    }
+    .three3{
+        text-align: center;
+        display: block;
+    }
+  
+    .maindiv h4{
+        font-size: 16px;
+       top:200px;
+ text-decoration: underline;
+       
+    }
+    
+
+  .img2{
+display:none;
+  }
+  .img3{
+display: flex;
+
+height:100%;
+width:100%;
+  }
+  .box2{
+    text-align: center;
+    width: 100%;
+  }
+  .box3 span{
+    margin:0;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .box2 h1{
+    /* left:10px; */
+    font-size:35px;
+    text-align: center;
+   /* width:95%; */
+  }
+  .box2 h2{
+   
+    font-size:18px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    /* left:25px; */
+  }
+
+  .box2 .img3{
+object-fit:cover;
+width:100%;
+
+  }
+  .box3 h1{
+    /* left:10px; */
+   font-size: 35px;
+   width:95%;
+  }
+  .box3 h2{
+    /* left:97px; */
+    top:85px;
+  }
+  .box3 span{
+    /* left:85px; */
+    font-size:19px;
+    top:140px;
+ 
+  }
+  
+  .box3 .img4{
+object-fit:cover;
+width:100%;
+
+  }
+ .box4{
+    display: grid;
+    grid-template-columns: auto;
+ }
+ .box4 img{
+    height:70vh;
+    width:100%;
+    padding:5px 0px;
+    object-fit: cover;
+ }
+ .mg h1{
+    top:350px;
+ }
+ .mg h2{
+    top:400px;
+ }
+ .mg1 h1{
+    top:20px;
+    font-size: 28px;;
+ }
+ .mg1 h2{
+    top:60px;
+ }
+ .mg1 span{
+    top:90px;
+ }
+ .mg2 h1{
+    top:20px;
+
+ }
+ .mg2 h2{
+    top:80px;
+ }
+ .mg2 span{
+    top:110px;
+ }
+.mg3 h1{
+top:20px;
+}
+.mg3 h2{
+    top:80px;
+}
+.mg3 h5{
+    top:110px;
+}
+.mg3 span{
+    top:130px;
+}
+.mg4 h1{
+    top:20px;
+}
+.mg4 h2{
+    top:60px;
+}
+.mg4 span{
+    top:100px;
+}
+.mg5 h1{
+    top:20px;
+}
+.mg5 h2{
+    top:70px;
+}
+.mg5 span{
+    top:100px;
+}
+}
